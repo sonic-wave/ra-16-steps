@@ -1,0 +1,22 @@
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 500px;
+}
+
+.formDate, .formDistance {
+    display: flex;
+    flex-direction: column;
+}
+
+.formDate > input, .formDistance > input {
+    margin-top: 5px;
+    padding: 5px;
+}
+
+button {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+}
